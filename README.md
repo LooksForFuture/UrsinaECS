@@ -45,7 +45,7 @@ def update():
 
 app.run()
 ```
-ECS entity is a child class of Ursina Entity class which has a list of it's components. The class is called "ECStity". Each ECStity should be created using the world and not by the user. And the systems are independant classes which must inherit from System class of UrsinaECS and have an update function. whenever you call the update function of the ECSWorld, the world calls update function of all the systems which have been attached to it.<br />
+ECS entity is a child class of Ursina Entity class which has a list of it's components. The class is called "ECStity". Each ECStity should be created using the world and not by the user. And the systems are independant classes which must inherit from System class of UrsinaECS and have an update function. Whenever you call the update function of the ECSWorld, the world calls update function of all the systems which have been attached to it.<br />
 
 <h3>Future plans</h3>
 <ul>
